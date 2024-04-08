@@ -5,7 +5,7 @@ import { FEATURED_PRODUCTS, RECOMMENDED_PRODUCTS, SHOP } from '@/constants/route
 import {
   useDocumentTitle, useFeaturedProducts, useRecommendedProducts, useScrollTop
 } from '@/hooks';
-import bannerImg from '@/images/banner-girl.png';
+import bannerImg from '@/images/am.jpg';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -33,9 +33,9 @@ const Home = () => {
         <div className="banner">
           <div className="banner-desc">
             <h1 className="text-thin">
-              <strong>See</strong>
-              &nbsp;everything with&nbsp;
-              <strong>Clarity</strong>
+              <strong>Amaja shopping</strong>
+              &nbsp;makes everything&nbsp;
+              <strong>Easiy</strong>
             </h1>
             <p>
               Buying anything online hussle free is what Amaja has to offer with our lay away 
